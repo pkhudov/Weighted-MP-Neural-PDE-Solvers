@@ -196,3 +196,4 @@ Saved model at models/GNN_norm+mlp+net_CE_E1_xresolution100-200_lr0.0001_n6_s0.0
 Epoch 1
 Starting epoch 1...
 Training Loss (progress: 0.00), 0.2357254403249695, [0.001, 0.001, 0.001, 0.001, 0.001, 0.001], [1, 1, 1, 1, 1, 1]
+Training Loss (progress: 0.08), 0.20572831415711387, [0.001, 0.001, 0.001, 0.001, 0.001, 0.001], [1, 1, 1, 1, 1, 1]
