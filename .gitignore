@@ -4,3 +4,4 @@ __pycache__/
 *.egg
 eddie_outputs/
 *.h5
+.DS_Store
