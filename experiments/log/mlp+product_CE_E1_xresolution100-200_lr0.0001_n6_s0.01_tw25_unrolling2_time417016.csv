@@ -1,0 +1,7 @@
+Training on dataset data/CE_train_E1.h5, train_loss, kw_mean, kw_std, kw_cv, x_i, x_j, u_i-u_j, pos_i-pos_j, kernel_weights/norm/pos_transf, variables
+Specified device: cuda:0
+Using NVIDIA A100 80GB PCIe
+models/GNN_mlp+product_CE_E1_xresolution100-200_lr0.0001_n6_s0.01_tw25_unrolling2_time417016.tar
+Number of parameters: 1035587
+Epoch 0
+Starting epoch 0...

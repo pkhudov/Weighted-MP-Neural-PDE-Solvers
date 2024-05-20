@@ -1,0 +1,700 @@
+Training on dataset data/CE_train_E1.h5
+Specified device: cuda:0
+Using NVIDIA A100 80GB PCIe
+models/GNN_mlp+product_CE_E1_xresolution100-200_lr0.0001_n6_s0.01_tw25_unrolling2_time415160.tar
+Number of parameters: 1035587
+Epoch 0
+Starting epoch 0...
+Training Loss (progress: 0.00): 1.252382156141366, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.08): 0.2709180868853323, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.16): 0.2137871224360036, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.24): 0.17879893555279308, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.32): 0.14993531110394884, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.40): 0.14833607831121723, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.48): 0.12684882468065808, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.56): 0.122856275195368, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.64): 0.12493183231197572, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.72): 0.11931171129445514, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.80): 0.11368342798252486, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.88): 0.09713167057453187, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.96): 0.10109475546105341, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Evaluation on validation dataset:
+Step 25, mean loss 0.08166923033220633
+Step 50, mean loss 0.08449322583766732
+Step 75, mean loss 0.13079265167145576
+Step 100, mean loss 0.30326740583140593
+Step 125, mean loss 0.21726691115698654
+Step 150, mean loss 0.22441917787836668
+Step 175, mean loss 0.3490105342997435
+Step 200, mean loss 0.6853559273055299
+Step 225, mean loss 0.5310812191570601
+Unrolled forward losses 17.664101280372066
+Unrolled forward base losses 2.565701273852575
+Evaluation on test dataset:
+Step 25, mean loss 0.06146936522397395
+Step 50, mean loss 0.057546048387134986
+Step 75, mean loss 0.09908469294982361
+Step 100, mean loss 0.15011428822328915
+Step 125, mean loss 0.34260424499981224
+Step 150, mean loss 0.1938493968304219
+Step 175, mean loss 0.31499985248033474
+Step 200, mean loss 0.3383608512394112
+Step 225, mean loss 0.3399339573289289
+Unrolled forward losses 12.724551511183623
+Unrolled forward base losses 2.5892662621222584
+Saved model at models/GNN_mlp+product_CE_E1_xresolution100-200_lr0.0001_n6_s0.01_tw25_unrolling2_time415160.tar
+
+Epoch 1
+Starting epoch 1...
+Training Loss (progress: 0.00): 0.23311666547767465, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.08): 0.19584659545109834, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.16): 0.19387174128756926, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.24): 0.18255625745282458, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.32): 0.17863180519526173, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.40): 0.17584459218656343, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.48): 0.17774278678015012, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.56): 0.16627579983858004, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.64): 0.18502124889764962, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.72): 0.15079769962062592, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.80): 0.15849342280896234, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.88): 0.15705844923624637, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.96): 0.17511351323467336, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Evaluation on validation dataset:
+Step 25, mean loss 0.09905687712381918
+Step 50, mean loss 0.06582044212089272
+Step 75, mean loss 0.09079684829279441
+Step 100, mean loss 0.1558022482619438
+Step 125, mean loss 0.14599878990555826
+Step 150, mean loss 0.156060724021569
+Step 175, mean loss 0.207102272981194
+Step 200, mean loss 0.5441293833596883
+Step 225, mean loss 0.3024059566075962
+Unrolled forward losses 5.552275588727477
+Unrolled forward base losses 2.565701273852575
+Evaluation on test dataset:
+Step 25, mean loss 0.07699754739640491
+Step 50, mean loss 0.05533406266003925
+Step 75, mean loss 0.0836296461395663
+Step 100, mean loss 0.10125360734942242
+Step 125, mean loss 0.1250956686205923
+Step 150, mean loss 0.1405125439337383
+Step 175, mean loss 0.17026708280704966
+Step 200, mean loss 0.17409534623503997
+Step 225, mean loss 0.2011791199818478
+Unrolled forward losses 4.019455557733931
+Unrolled forward base losses 2.5892662621222584
+Saved model at models/GNN_mlp+product_CE_E1_xresolution100-200_lr0.0001_n6_s0.01_tw25_unrolling2_time415160.tar
+
+Epoch 2
+Starting epoch 2...
+Training Loss (progress: 0.00): 0.1990740048319765, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.08): 0.19228797520379481, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.16): 0.21436420759951022, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.24): 0.22053147243255364, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.32): 0.19660943022349925, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.40): 0.1952632016950538, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.48): 0.19469862893119042, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.56): 0.20355702258078676, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.64): 0.17917101942177294, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.72): 0.18006403334476756, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.80): 0.1950385489176171, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.88): 0.19351276916881832, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.96): 0.1785821683418369, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Evaluation on validation dataset:
+Step 25, mean loss 0.0643844196952328
+Step 50, mean loss 0.03633673920459951
+Step 75, mean loss 0.05088487501791718
+Step 100, mean loss 0.05756690955671057
+Step 125, mean loss 0.07768328148811096
+Step 150, mean loss 0.0671345143427943
+Step 175, mean loss 0.1139347130589681
+Step 200, mean loss 0.33256454304913047
+Step 225, mean loss 0.23506794950578513
+Unrolled forward losses 2.395653076968321
+Unrolled forward base losses 2.565701273852575
+Evaluation on test dataset:
+Step 25, mean loss 0.05134734339768525
+Step 50, mean loss 0.025970277925795114
+Step 75, mean loss 0.04083689737700557
+Step 100, mean loss 0.045812802089994324
+Step 125, mean loss 0.05672916263231273
+Step 150, mean loss 0.08654333287908939
+Step 175, mean loss 0.1021873111841729
+Step 200, mean loss 0.13857263924209418
+Step 225, mean loss 0.14779041701863904
+Unrolled forward losses 2.0000709647823687
+Unrolled forward base losses 2.5892662621222584
+Saved model at models/GNN_mlp+product_CE_E1_xresolution100-200_lr0.0001_n6_s0.01_tw25_unrolling2_time415160.tar
+
+Epoch 3
+Starting epoch 3...
+Training Loss (progress: 0.00): 0.1744924094814378, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.08): 0.18272250602712634, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.16): 0.19500845035000272, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.24): 0.1812210546435231, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.32): 0.17557352426966663, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.40): 0.1845591431474593, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.48): 0.1819973754706316, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.56): 0.16717546985877463, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.64): 0.17932530075691458, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.72): 0.1816788948852333, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.80): 0.167285957789794, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.88): 0.1547560262903823, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.96): 0.16562725878480494, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Evaluation on validation dataset:
+Step 25, mean loss 0.05276618843108154
+Step 50, mean loss 0.03257398746309349
+Step 75, mean loss 0.05101319077038399
+Step 100, mean loss 0.05969635961194657
+Step 125, mean loss 0.0783169800091536
+Step 150, mean loss 0.07462519631548163
+Step 175, mean loss 0.12547833245697437
+Step 200, mean loss 0.287332904949374
+Step 225, mean loss 0.19935836921295766
+Unrolled forward losses 2.454464167422733
+Unrolled forward base losses 2.565701273852575
+Epoch 4
+Starting epoch 4...
+Training Loss (progress: 0.00): 0.16846440566689444, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.08): 0.17124490761865946, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.16): 0.15664067110384322, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.24): 0.16070577975727468, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.32): 0.17339287715127835, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.40): 0.16863607991758403, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.48): 0.16969831968184662, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.56): 0.16304716890927765, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.64): 0.1658723308082692, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.72): 0.1688669855536014, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.80): 0.15286077949782903, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.88): 0.16461162873482535, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.96): 0.14795640637750895, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Evaluation on validation dataset:
+Step 25, mean loss 0.048466293007838016
+Step 50, mean loss 0.029464542981795745
+Step 75, mean loss 0.039848375969410085
+Step 100, mean loss 0.043284658191850914
+Step 125, mean loss 0.05910792103738165
+Step 150, mean loss 0.05510499199000779
+Step 175, mean loss 0.10065105125501392
+Step 200, mean loss 0.2354147028116069
+Step 225, mean loss 0.20269307786275317
+Unrolled forward losses 2.0746507146064967
+Unrolled forward base losses 2.565701273852575
+Evaluation on test dataset:
+Step 25, mean loss 0.03963694381532318
+Step 50, mean loss 0.021625789794684408
+Step 75, mean loss 0.03488606286339124
+Step 100, mean loss 0.0370535850292064
+Step 125, mean loss 0.04455164360625641
+Step 150, mean loss 0.060291398150939514
+Step 175, mean loss 0.07900657785819534
+Step 200, mean loss 0.11312574209863083
+Step 225, mean loss 0.10346765308713883
+Unrolled forward losses 1.6480167700791082
+Unrolled forward base losses 2.5892662621222584
+Saved model at models/GNN_mlp+product_CE_E1_xresolution100-200_lr0.0001_n6_s0.01_tw25_unrolling2_time415160.tar
+
+Epoch 5
+Starting epoch 5...
+Training Loss (progress: 0.00): 0.1349745797590933, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.08): 0.13949636298220577, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.16): 0.13424158548205203, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.24): 0.14407620504215418, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.32): 0.12420571929509495, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.40): 0.1461279058847865, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.48): 0.12398541650742773, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.56): 0.12992075957701607, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.64): 0.14030791463545886, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.72): 0.13984742025936306, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.80): 0.13701184102921116, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.88): 0.12759586443402401, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.96): 0.13739742673253488, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Evaluation on validation dataset:
+Step 25, mean loss 0.04004642619359833
+Step 50, mean loss 0.02018108751270847
+Step 75, mean loss 0.032514999899797496
+Step 100, mean loss 0.03460959549399022
+Step 125, mean loss 0.048901902811353856
+Step 150, mean loss 0.04502409984390468
+Step 175, mean loss 0.07928000478300953
+Step 200, mean loss 0.22048339949246232
+Step 225, mean loss 0.1848925854033021
+Unrolled forward losses 1.675447170729511
+Unrolled forward base losses 2.565701273852575
+Evaluation on test dataset:
+Step 25, mean loss 0.03489291093017316
+Step 50, mean loss 0.015728844247484816
+Step 75, mean loss 0.023587764204082994
+Step 100, mean loss 0.02871500663929783
+Step 125, mean loss 0.0344148472086024
+Step 150, mean loss 0.05106726901851011
+Step 175, mean loss 0.06703820433944208
+Step 200, mean loss 0.09335914999139457
+Step 225, mean loss 0.09612334628695901
+Unrolled forward losses 1.492599986267004
+Unrolled forward base losses 2.5892662621222584
+Saved model at models/GNN_mlp+product_CE_E1_xresolution100-200_lr0.0001_n6_s0.01_tw25_unrolling2_time415160.tar
+
+Epoch 6
+Starting epoch 6...
+Training Loss (progress: 0.00): 0.13816009808075622, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.08): 0.12881461882681783, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.16): 0.13847770579218893, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.24): 0.13245296917059637, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.32): 0.12816610258741876, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.40): 0.14557979712125962, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.48): 0.11820385760293925, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.56): 0.11768088352268063, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.64): 0.1200929528470546, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.72): 0.13879330398609724, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.80): 0.14345901518303952, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.88): 0.13624474303282494, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.96): 0.1211409324900749, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Evaluation on validation dataset:
+Step 25, mean loss 0.037088404124348676
+Step 50, mean loss 0.02009304111189533
+Step 75, mean loss 0.030664011188590124
+Step 100, mean loss 0.0422245800641451
+Step 125, mean loss 0.048714519091858366
+Step 150, mean loss 0.04525819840829383
+Step 175, mean loss 0.07565005133034963
+Step 200, mean loss 0.20066539891490912
+Step 225, mean loss 0.17845268687642446
+Unrolled forward losses 2.0735487739431093
+Unrolled forward base losses 2.565701273852575
+Epoch 7
+Starting epoch 7...
+Training Loss (progress: 0.00): 0.12743749253952952, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.08): 0.12789177826606282, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.16): 0.12503649268446557, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.24): 0.13298611243172748, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.32): 0.12411215018219193, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.40): 0.12359427526165499, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.48): 0.12877842075780405, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.56): 0.1313207620277947, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.64): 0.13283592889275575, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.72): 0.12067783503147038, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.80): 0.11943720282345778, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.88): 0.12896621598716623, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.96): 0.1253391183020379, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Evaluation on validation dataset:
+Step 25, mean loss 0.03745670570716063
+Step 50, mean loss 0.018184159200511755
+Step 75, mean loss 0.028414339796760932
+Step 100, mean loss 0.034137042456231746
+Step 125, mean loss 0.04431401345384514
+Step 150, mean loss 0.04019419017186222
+Step 175, mean loss 0.07446472262598249
+Step 200, mean loss 0.19461054200124814
+Step 225, mean loss 0.1774389843301748
+Unrolled forward losses 1.7333835557153345
+Unrolled forward base losses 2.565701273852575
+Epoch 8
+Starting epoch 8...
+Training Loss (progress: 0.00): 0.13581987853803906, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.08): 0.13306731808265407, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.16): 0.12257731300378624, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.24): 0.12269858661799683, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.32): 0.11659753807263826, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.40): 0.13107228030567403, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.48): 0.11600134090304139, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.56): 0.12276213279253259, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.64): 0.10872115376725722, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.72): 0.1239039678447328, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.80): 0.11501895433756713, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.88): 0.11582046609746206, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.96): 0.1228857881512062, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Evaluation on validation dataset:
+Step 25, mean loss 0.03062986629430552
+Step 50, mean loss 0.017554440399767772
+Step 75, mean loss 0.02719106147233437
+Step 100, mean loss 0.03539662325042906
+Step 125, mean loss 0.04459760559765944
+Step 150, mean loss 0.04480818196654773
+Step 175, mean loss 0.07862260053009068
+Step 200, mean loss 0.19063638095407393
+Step 225, mean loss 0.17217223209559557
+Unrolled forward losses 1.8723137905078717
+Unrolled forward base losses 2.565701273852575
+Epoch 9
+Starting epoch 9...
+Training Loss (progress: 0.00): 0.10676191970234016, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.08): 0.12396284464503421, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.16): 0.1113458018648097, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.24): 0.11826259337920117, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.32): 0.1306805008723578, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.40): 0.12406133343529945, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.48): 0.1236846181168163, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.56): 0.12821570869535023, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.64): 0.11987277255811973, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.72): 0.11628933648687372, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.80): 0.13506483827523932, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.88): 0.12715251092654092, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.96): 0.11633611224670133, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Evaluation on validation dataset:
+Step 25, mean loss 0.03286250959400957
+Step 50, mean loss 0.016663604192436086
+Step 75, mean loss 0.024519109739571665
+Step 100, mean loss 0.030716732631693004
+Step 125, mean loss 0.042301277783726374
+Step 150, mean loss 0.03955296345414788
+Step 175, mean loss 0.06452647951799376
+Step 200, mean loss 0.18102439372739382
+Step 225, mean loss 0.16170998106092693
+Unrolled forward losses 2.1678837694733897
+Unrolled forward base losses 2.565701273852575
+Epoch 10
+Starting epoch 10...
+Training Loss (progress: 0.00): 0.1138462313805296, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.08): 0.10796922721411546, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.16): 0.10963827327836882, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.24): 0.12281963817768707, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.32): 0.1089727831583693, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.40): 0.11969833543086504, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.48): 0.10967311909384166, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.56): 0.11193646576845205, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.64): 0.10481491990322585, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.72): 0.10894457099729864, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.80): 0.11410140309802377, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.88): 0.1064424561863554, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.96): 0.10145504198325903, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Evaluation on validation dataset:
+Step 25, mean loss 0.025666507408303077
+Step 50, mean loss 0.014541236377437823
+Step 75, mean loss 0.022482767222458754
+Step 100, mean loss 0.02762780150158311
+Step 125, mean loss 0.03742905029575114
+Step 150, mean loss 0.03420766724770368
+Step 175, mean loss 0.05874587678376576
+Step 200, mean loss 0.17220554127821033
+Step 225, mean loss 0.15828225354434924
+Unrolled forward losses 1.6578999396987824
+Unrolled forward base losses 2.565701273852575
+Evaluation on test dataset:
+Step 25, mean loss 0.021607023517288944
+Step 50, mean loss 0.01088091612386246
+Step 75, mean loss 0.018107576901828883
+Step 100, mean loss 0.022673505411434855
+Step 125, mean loss 0.029476155550048337
+Step 150, mean loss 0.040099661880004404
+Step 175, mean loss 0.05115794014117298
+Step 200, mean loss 0.07726659683048193
+Step 225, mean loss 0.07898972312670127
+Unrolled forward losses 1.246512205605157
+Unrolled forward base losses 2.5892662621222584
+Saved model at models/GNN_mlp+product_CE_E1_xresolution100-200_lr0.0001_n6_s0.01_tw25_unrolling2_time415160.tar
+
+Epoch 11
+Starting epoch 11...
+Training Loss (progress: 0.00): 0.11358314609418772, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.08): 0.09791158640809446, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.16): 0.10633990744013568, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.24): 0.10531638632452843, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.32): 0.10597522938253982, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.40): 0.11216418420856393, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.48): 0.10687303511019654, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.56): 0.10887852584859556, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.64): 0.11648006203781092, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.72): 0.11161837847741662, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.80): 0.10684132274880932, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.88): 0.10274372943745025, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.96): 0.11156927293471677, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Evaluation on validation dataset:
+Step 25, mean loss 0.02496969299838555
+Step 50, mean loss 0.014008863093897019
+Step 75, mean loss 0.023750226195433398
+Step 100, mean loss 0.029114541280677232
+Step 125, mean loss 0.03785137352103404
+Step 150, mean loss 0.035595105966452566
+Step 175, mean loss 0.05945317215531745
+Step 200, mean loss 0.161673129624399
+Step 225, mean loss 0.15872804239003513
+Unrolled forward losses 1.5595196717989808
+Unrolled forward base losses 2.565701273852575
+Evaluation on test dataset:
+Step 25, mean loss 0.021315948176427665
+Step 50, mean loss 0.010931990479930286
+Step 75, mean loss 0.017979682119944843
+Step 100, mean loss 0.022382838911626644
+Step 125, mean loss 0.028967664517147385
+Step 150, mean loss 0.03873333019544026
+Step 175, mean loss 0.05019734795867627
+Step 200, mean loss 0.07896211884191999
+Step 225, mean loss 0.07715125123462496
+Unrolled forward losses 1.2653295672866636
+Unrolled forward base losses 2.5892662621222584
+Saved model at models/GNN_mlp+product_CE_E1_xresolution100-200_lr0.0001_n6_s0.01_tw25_unrolling2_time415160.tar
+
+Epoch 12
+Starting epoch 12...
+Training Loss (progress: 0.00): 0.10657444354887317, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.08): 0.09973786803158152, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.16): 0.09959481009115444, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.24): 0.11103505447851279, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.32): 0.10909093182074639, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.40): 0.11565153671574183, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.48): 0.11086666109233329, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.56): 0.11404217975900423, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.64): 0.10252460792225111, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.72): 0.11065703771731102, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.80): 0.11059643532350556, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.88): 0.11861013301816392, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.96): 0.11062739621742716, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Evaluation on validation dataset:
+Step 25, mean loss 0.02368369894366753
+Step 50, mean loss 0.01323991797183155
+Step 75, mean loss 0.02153237270290433
+Step 100, mean loss 0.026639689138849475
+Step 125, mean loss 0.0367743870818235
+Step 150, mean loss 0.03476552958030464
+Step 175, mean loss 0.05972911910446633
+Step 200, mean loss 0.1670881162613565
+Step 225, mean loss 0.15585813979446944
+Unrolled forward losses 1.5243382595974526
+Unrolled forward base losses 2.565701273852575
+Evaluation on test dataset:
+Step 25, mean loss 0.02009314244815239
+Step 50, mean loss 0.010191064995683728
+Step 75, mean loss 0.01743261901777461
+Step 100, mean loss 0.02184475010437254
+Step 125, mean loss 0.030219430166071114
+Step 150, mean loss 0.038142351743426534
+Step 175, mean loss 0.049707285397333156
+Step 200, mean loss 0.07785797167675405
+Step 225, mean loss 0.07742568705360892
+Unrolled forward losses 1.2269703297833736
+Unrolled forward base losses 2.5892662621222584
+Saved model at models/GNN_mlp+product_CE_E1_xresolution100-200_lr0.0001_n6_s0.01_tw25_unrolling2_time415160.tar
+
+Epoch 13
+Starting epoch 13...
+Training Loss (progress: 0.00): 0.11695874936713639, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.08): 0.09967666734954696, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.16): 0.11245792275690497, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.24): 0.10040785351512295, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.32): 0.11374910354982054, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.40): 0.10694482833075768, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.48): 0.111451794272445, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.56): 0.11026111910694576, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.64): 0.0953885248370245, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.72): 0.10641078113941183, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.80): 0.1044420843888638, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.88): 0.11262012156312294, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.96): 0.10355432626260466, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Evaluation on validation dataset:
+Step 25, mean loss 0.024624897443124624
+Step 50, mean loss 0.013170649829384967
+Step 75, mean loss 0.021019845777319492
+Step 100, mean loss 0.03009097747251515
+Step 125, mean loss 0.034914927134187465
+Step 150, mean loss 0.03370024114898204
+Step 175, mean loss 0.055545534638043216
+Step 200, mean loss 0.16592646595323834
+Step 225, mean loss 0.1502051468742131
+Unrolled forward losses 1.521299433534665
+Unrolled forward base losses 2.565701273852575
+Evaluation on test dataset:
+Step 25, mean loss 0.021645116961044993
+Step 50, mean loss 0.010587534022631238
+Step 75, mean loss 0.016511500814951903
+Step 100, mean loss 0.02147674698880976
+Step 125, mean loss 0.028861699209546225
+Step 150, mean loss 0.037869121841723405
+Step 175, mean loss 0.046419071863354894
+Step 200, mean loss 0.07381429220472441
+Step 225, mean loss 0.07885028995257595
+Unrolled forward losses 1.2117164231715791
+Unrolled forward base losses 2.5892662621222584
+Saved model at models/GNN_mlp+product_CE_E1_xresolution100-200_lr0.0001_n6_s0.01_tw25_unrolling2_time415160.tar
+
+Epoch 14
+Starting epoch 14...
+Training Loss (progress: 0.00): 0.11354214694325641, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.08): 0.10323619517068434, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.16): 0.10952516629633231, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.24): 0.11113583225616523, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.32): 0.11094356900034058, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.40): 0.11035725076775015, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.48): 0.10796420374232701, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.56): 0.09831857448296888, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.64): 0.10812681641362386, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.72): 0.09547202476705624, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.80): 0.10730040473005059, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.88): 0.1065546959916154, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.96): 0.11789756468215537, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Evaluation on validation dataset:
+Step 25, mean loss 0.023005394614865074
+Step 50, mean loss 0.013695902547142574
+Step 75, mean loss 0.02191653152213792
+Step 100, mean loss 0.02596860978495294
+Step 125, mean loss 0.03406676648741676
+Step 150, mean loss 0.032661020230898966
+Step 175, mean loss 0.05702001904195669
+Step 200, mean loss 0.16224884130032674
+Step 225, mean loss 0.1545708460634799
+Unrolled forward losses 1.6164992101875406
+Unrolled forward base losses 2.565701273852575
+Epoch 15
+Starting epoch 15...
+Training Loss (progress: 0.00): 0.09304959829813496, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.08): 0.09786417339271447, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.16): 0.09324300849674712, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.24): 0.09886687162568077, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.32): 0.09824166317697379, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.40): 0.09506271216941159, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.48): 0.11087184951078215, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.56): 0.10086739913603836, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.64): 0.1007969885662934, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.72): 0.09022640573001037, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.80): 0.10680825218813174, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.88): 0.10381506616242914, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.96): 0.107889273523249, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Evaluation on validation dataset:
+Step 25, mean loss 0.021799975612683088
+Step 50, mean loss 0.012724269193796415
+Step 75, mean loss 0.020569147867818625
+Step 100, mean loss 0.027130496642101
+Step 125, mean loss 0.033905067845260484
+Step 150, mean loss 0.032831723195732944
+Step 175, mean loss 0.05485704761752336
+Step 200, mean loss 0.16075745011461512
+Step 225, mean loss 0.15239053280514847
+Unrolled forward losses 1.5145156564868953
+Unrolled forward base losses 2.565701273852575
+Evaluation on test dataset:
+Step 25, mean loss 0.0185289568527836
+Step 50, mean loss 0.009618899270809483
+Step 75, mean loss 0.01659688878325611
+Step 100, mean loss 0.020567633233260475
+Step 125, mean loss 0.028061997937511445
+Step 150, mean loss 0.03710585119280936
+Step 175, mean loss 0.047132994033377326
+Step 200, mean loss 0.07305160956081226
+Step 225, mean loss 0.07617251225499438
+Unrolled forward losses 1.1851615792248187
+Unrolled forward base losses 2.5892662621222584
+Saved model at models/GNN_mlp+product_CE_E1_xresolution100-200_lr0.0001_n6_s0.01_tw25_unrolling2_time415160.tar
+
+Epoch 16
+Starting epoch 16...
+Training Loss (progress: 0.00): 0.10545185597186563, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.08): 0.10991264936571617, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.16): 0.10053922952554183, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.24): 0.09901533250055804, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.32): 0.10530052162331059, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.40): 0.09768436596485484, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.48): 0.1024571136536063, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.56): 0.0950933286643619, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.64): 0.09936796056160194, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.72): 0.1126834401346869, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.80): 0.10563160745541739, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.88): 0.09718251641775735, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.96): 0.10332540519830151, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Evaluation on validation dataset:
+Step 25, mean loss 0.021442419331693736
+Step 50, mean loss 0.012449826085060529
+Step 75, mean loss 0.02114094584877428
+Step 100, mean loss 0.026067817125962494
+Step 125, mean loss 0.032201320722252014
+Step 150, mean loss 0.0318709254840562
+Step 175, mean loss 0.05487474618192834
+Step 200, mean loss 0.1585198444085558
+Step 225, mean loss 0.15287056225256268
+Unrolled forward losses 1.4641801572114164
+Unrolled forward base losses 2.565701273852575
+Evaluation on test dataset:
+Step 25, mean loss 0.01857891592916839
+Step 50, mean loss 0.01010385770126183
+Step 75, mean loss 0.01604108030911611
+Step 100, mean loss 0.02004079351378294
+Step 125, mean loss 0.02840163714515245
+Step 150, mean loss 0.03568308523170778
+Step 175, mean loss 0.0446237110812623
+Step 200, mean loss 0.071511973975453
+Step 225, mean loss 0.07356482124599137
+Unrolled forward losses 1.1998164968514058
+Unrolled forward base losses 2.5892662621222584
+Saved model at models/GNN_mlp+product_CE_E1_xresolution100-200_lr0.0001_n6_s0.01_tw25_unrolling2_time415160.tar
+
+Epoch 17
+Starting epoch 17...
+Training Loss (progress: 0.00): 0.09911379846305468, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.08): 0.09145108585031912, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.16): 0.10932472166772253, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.24): 0.1019831222700826, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.32): 0.10339758561229637, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.40): 0.10200177637578857, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.48): 0.10295515632773501, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.56): 0.09940024608582351, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.64): 0.10054021478705692, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.72): 0.10478887417462983, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.80): 0.09799881591710431, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.88): 0.10232143191399498, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.96): 0.0990013674912637, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Evaluation on validation dataset:
+Step 25, mean loss 0.020876308999996686
+Step 50, mean loss 0.012367250258959968
+Step 75, mean loss 0.020853187425371674
+Step 100, mean loss 0.02617906099502507
+Step 125, mean loss 0.03254221979179622
+Step 150, mean loss 0.03204292512610188
+Step 175, mean loss 0.05443772849941828
+Step 200, mean loss 0.15598595825364692
+Step 225, mean loss 0.15153065651061073
+Unrolled forward losses 1.4867844987404744
+Unrolled forward base losses 2.565701273852575
+Epoch 18
+Starting epoch 18...
+Training Loss (progress: 0.00): 0.09919243610188733, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.08): 0.1054399892658784, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.16): 0.0967171338386429, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.24): 0.09642801482846318, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.32): 0.0978000259482856, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.40): 0.10666397918748294, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.48): 0.09547465129437077, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.56): 0.10964612389159396, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.64): 0.10254409884412613, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.72): 0.10199599370280805, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.80): 0.0948152419033928, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.88): 0.10464262036461361, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.96): 0.09354424133047576, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Evaluation on validation dataset:
+Step 25, mean loss 0.02194758925361742
+Step 50, mean loss 0.012325358330689139
+Step 75, mean loss 0.020491745042362376
+Step 100, mean loss 0.026980448740114474
+Step 125, mean loss 0.03291056510584638
+Step 150, mean loss 0.030872372005372503
+Step 175, mean loss 0.05359392892146249
+Step 200, mean loss 0.1594352789832784
+Step 225, mean loss 0.15809226729566261
+Unrolled forward losses 1.4915166563659006
+Unrolled forward base losses 2.565701273852575
+Epoch 19
+Starting epoch 19...
+Training Loss (progress: 0.00): 0.09651780421345378, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.08): 0.10966043822397555, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.16): 0.10040220454609258, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.24): 0.09467103366398358, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.32): 0.09594334622187123, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.40): 0.10122098880421672, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.48): 0.09903935775043439, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.56): 0.10273420683937952, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.64): 0.09684730287914867, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.72): 0.10402901445060946, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.80): 0.10364687419273157, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.88): 0.09297518070891882, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Training Loss (progress: 0.96): 0.09290535630583424, Kernel Weights mean-std-CV, 1.0000000000000000, 0.0, 0.0
+Evaluation on validation dataset:
+Step 25, mean loss 0.02066446073658012
+Step 50, mean loss 0.01233902183186652
+Step 75, mean loss 0.02111789485989761
+Step 100, mean loss 0.026775570059959026
+Step 125, mean loss 0.0330100746211425
+Step 150, mean loss 0.031963491833592976
+Step 175, mean loss 0.054038700008924995
+Step 200, mean loss 0.1546764359503135
+Step 225, mean loss 0.15688325136624576
+Unrolled forward losses 1.505238068676457
+Unrolled forward base losses 2.565701273852575
+Test loss: 1.1998164968514058

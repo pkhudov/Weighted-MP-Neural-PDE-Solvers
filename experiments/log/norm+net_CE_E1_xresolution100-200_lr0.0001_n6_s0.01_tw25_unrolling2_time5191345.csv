@@ -1,0 +1,49 @@
+Training on dataset data/CE_train_E1.h5
+Specified device: cuda:0
+Using NVIDIA A100 80GB PCIe
+models/GNN_norm+net_CE_E1_xresolution100-200_lr0.0001_n6_s0.01_tw25_unrolling2_time5191345.tar
+Number of parameters: 1032629
+Saved initial model at models/init5191345.pt
+Epoch 0
+Starting epoch 0...
+Training Loss (progress: 0.00), 1.2243329964115255, [0.01, 0.01, 0.01, 0.01, 0.01, 0.01], [1, 1, 1, 1, 1, 1]
+Training Loss (progress: 0.08), 0.2756888754315801, [0.01, 0.01, 0.01, 0.01, 0.01, 0.01], [1, 1, 1, 1, 1, 1]
+Training Loss (progress: 0.16), 0.20399777348816908, [0.01, 0.01, 0.01, 0.01, 0.01, 0.01], [1, 1, 1, 1, 1, 1]
+Training Loss (progress: 0.24), 0.18405973562220027, [0.01, 0.01, 0.01, 0.01, 0.01, 0.01], [1, 1, 1, 1, 1, 1]
+Training Loss (progress: 0.32), 0.17152189005196633, [0.01, 0.01, 0.01, 0.01, 0.01, 0.01], [1, 1, 1, 1, 1, 1]
+Training Loss (progress: 0.40), 0.14705197392026903, [0.01, 0.01, 0.01, 0.01, 0.01, 0.01], [1, 1, 1, 1, 1, 1]
+Training Loss (progress: 0.48), 0.1395152530256872, [0.01, 0.01, 0.01, 0.01, 0.01, 0.01], [1, 1, 1, 1, 1, 1]
+Training Loss (progress: 0.56), 0.12648110332653484, [0.01, 0.01, 0.01, 0.01, 0.01, 0.01], [1, 1, 1, 1, 1, 1]
+Training Loss (progress: 0.64), 0.1226486811470468, [0.01, 0.01, 0.01, 0.01, 0.01, 0.01], [1, 1, 1, 1, 1, 1]
+Training Loss (progress: 0.72), 0.11591625086181376, [0.01, 0.01, 0.01, 0.01, 0.01, 0.01], [1, 1, 1, 1, 1, 1]
+Training Loss (progress: 0.80), 0.11316137816496559, [0.01, 0.01, 0.01, 0.01, 0.01, 0.01], [1, 1, 1, 1, 1, 1]
+Training Loss (progress: 0.88), 0.11668727116552828, [0.01, 0.01, 0.01, 0.01, 0.01, 0.01], [1, 1, 1, 1, 1, 1]
+Training Loss (progress: 0.96), 0.10367705738154978, [0.01, 0.01, 0.01, 0.01, 0.01, 0.01], [1, 1, 1, 1, 1, 1]
+Evaluation on validation dataset:
+Step 25, mean loss 0.0762602838138345
+Step 50, mean loss 0.08908022513716964
+Step 75, mean loss 0.10242326434961757
+Step 100, mean loss 0.2559500251265539
+Step 125, mean loss 0.1781867446726273
+Step 150, mean loss 0.13478001213406907
+Step 175, mean loss 0.2252047601026349
+Step 200, mean loss 0.7347646203299093
+Step 225, mean loss 0.4582061719295269
+Unrolled forward losses 12.352056520743478
+Unrolled forward base losses 2.565701273852575
+Evaluation on test dataset:
+Step 25, mean loss 0.05856353376581239
+Step 50, mean loss 0.06879699422283765
+Step 75, mean loss 0.080452822479471
+Step 100, mean loss 0.09527753215461104
+Step 125, mean loss 0.2812766919893732
+Step 150, mean loss 0.15312665594576205
+Step 175, mean loss 0.3289891189332153
+Step 200, mean loss 0.2680465547357115
+Step 225, mean loss 0.28432333791825604
+Unrolled forward losses 9.949209228443639
+Unrolled forward base losses 2.5892662621222584
+Saved model at models/GNN_norm+net_CE_E1_xresolution100-200_lr0.0001_n6_s0.01_tw25_unrolling2_time5191345.tar
+
+Epoch 1
+Starting epoch 1...

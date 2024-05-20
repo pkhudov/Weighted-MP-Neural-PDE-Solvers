@@ -1,0 +1,56 @@
+Training on dataset data/CE_train_E1.h5
+Specified device: cuda:0
+Using NVIDIA A100 80GB PCIe
+models/GNN_norm+kernel+net_CE_E1_xresolution100-200_lr0.0001_n6_s0.001_tw25_unrolling2_time53745.tar
+Number of parameters: 1032635.0
+Epoch 0
+Starting epoch 0...
+=========================================================================================================
+
+Kernel Weights for neighbours of Node 6 (for each GNN layer):
+
+Node: 00 (pos: 0.000): 2.53978e-02, 2.53978e-02, 2.53978e-02, 2.53978e-02, 2.53978e-02, 2.53978e-02
+Node: 01 (pos: 0.010): 7.80223e-02, 7.80223e-02, 7.80223e-02, 7.80223e-02, 7.80223e-02, 7.80223e-02
+Node: 02 (pos: 0.020): 1.95443e-01, 1.95443e-01, 1.95443e-01, 1.95443e-01, 1.95443e-01, 1.95443e-01
+Node: 03 (pos: 0.030): 3.99208e-01, 3.99208e-01, 3.99208e-01, 3.99208e-01, 3.99208e-01, 3.99208e-01
+Node: 04 (pos: 0.040): 6.64898e-01, 6.64898e-01, 6.64898e-01, 6.64898e-01, 6.64898e-01, 6.64898e-01
+Node: 05 (pos: 0.051): 9.03002e-01, 9.03002e-01, 9.03002e-01, 9.03002e-01, 9.03002e-01, 9.03002e-01
+-
+Node: 07 (pos: 0.071): 9.03002e-01, 9.03002e-01, 9.03002e-01, 9.03002e-01, 9.03002e-01, 9.03002e-01
+Node: 08 (pos: 0.081): 6.64898e-01, 6.64898e-01, 6.64898e-01, 6.64898e-01, 6.64898e-01, 6.64898e-01
+Node: 09 (pos: 0.091): 3.99208e-01, 3.99208e-01, 3.99208e-01, 3.99208e-01, 3.99208e-01, 3.99208e-01
+Node: 10 (pos: 0.101): 1.95443e-01, 1.95443e-01, 1.95443e-01, 1.95443e-01, 1.95443e-01, 1.95443e-01
+Node: 11 (pos: 0.111): 7.80223e-02, 7.80223e-02, 7.80223e-02, 7.80223e-02, 7.80223e-02, 7.80223e-02
+Node: 12 (pos: 0.121): 2.53978e-02, 2.53978e-02, 2.53978e-02, 2.53978e-02, 2.53978e-02, 2.53978e-02
+---------------------------------------------------------------------------------------------------------
+
+Kernel Weights for neighbours of Node 56 (for each GNN layer):
+
+Node: 57 (pos: 0.576): 9.03002e-01, 9.03002e-01, 9.03002e-01, 9.03002e-01, 9.03002e-01, 9.03002e-01
+Node: 58 (pos: 0.586): 6.64898e-01, 6.64898e-01, 6.64898e-01, 6.64898e-01, 6.64898e-01, 6.64898e-01
+Node: 59 (pos: 0.596): 3.99208e-01, 3.99208e-01, 3.99208e-01, 3.99208e-01, 3.99208e-01, 3.99208e-01
+Node: 60 (pos: 0.606): 1.95443e-01, 1.95443e-01, 1.95443e-01, 1.95443e-01, 1.95443e-01, 1.95443e-01
+Node: 61 (pos: 0.616): 7.80223e-02, 7.80223e-02, 7.80223e-02, 7.80223e-02, 7.80223e-02, 7.80223e-02
+Node: 50 (pos: 0.505): 2.53978e-02, 2.53978e-02, 2.53978e-02, 2.53978e-02, 2.53978e-02, 2.53978e-02
+-
+Node: 51 (pos: 0.515): 7.80223e-02, 7.80223e-02, 7.80223e-02, 7.80223e-02, 7.80223e-02, 7.80223e-02
+Node: 52 (pos: 0.525): 1.95443e-01, 1.95443e-01, 1.95443e-01, 1.95443e-01, 1.95443e-01, 1.95443e-01
+Node: 53 (pos: 0.535): 3.99208e-01, 3.99208e-01, 3.99208e-01, 3.99208e-01, 3.99208e-01, 3.99208e-01
+Node: 54 (pos: 0.545): 6.64898e-01, 6.64898e-01, 6.64898e-01, 6.64898e-01, 6.64898e-01, 6.64898e-01
+Node: 55 (pos: 0.556): 9.03002e-01, 9.03002e-01, 9.03002e-01, 9.03002e-01, 9.03002e-01, 9.03002e-01
+Node: 62 (pos: 0.626): 2.53978e-02, 2.53978e-02, 2.53978e-02, 2.53978e-02, 2.53978e-02, 2.53978e-02
+=========================================================================================================
+Training Loss (progress: 0.00), nan, nan, nan, nan, nan, nan, nan, [nan, nan, nan, nan, nan, nan]
+Training Loss (progress: 0.08), nan, nan, nan, nan, nan, nan, nan, [nan, nan, nan, nan, nan, nan]
+Training Loss (progress: 0.16), nan, nan, nan, nan, nan, nan, nan, [nan, nan, nan, nan, nan, nan]
+Training Loss (progress: 0.24), nan, nan, nan, nan, nan, nan, nan, [nan, nan, nan, nan, nan, nan]
+Training Loss (progress: 0.32), nan, nan, nan, nan, nan, nan, nan, [nan, nan, nan, nan, nan, nan]
+Training Loss (progress: 0.40), nan, nan, nan, nan, nan, nan, nan, [nan, nan, nan, nan, nan, nan]
+Training Loss (progress: 0.48), nan, nan, nan, nan, nan, nan, nan, [nan, nan, nan, nan, nan, nan]
+Training Loss (progress: 0.56), nan, nan, nan, nan, nan, nan, nan, [nan, nan, nan, nan, nan, nan]
+Training Loss (progress: 0.64), nan, nan, nan, nan, nan, nan, nan, [nan, nan, nan, nan, nan, nan]
+Training Loss (progress: 0.72), nan, nan, nan, nan, nan, nan, nan, [nan, nan, nan, nan, nan, nan]
+Training Loss (progress: 0.80), nan, nan, nan, nan, nan, nan, nan, [nan, nan, nan, nan, nan, nan]
+Training Loss (progress: 0.88), nan, nan, nan, nan, nan, nan, nan, [nan, nan, nan, nan, nan, nan]
+Training Loss (progress: 0.96), nan, nan, nan, nan, nan, nan, nan, [nan, nan, nan, nan, nan, nan]
+Evaluation on validation dataset:

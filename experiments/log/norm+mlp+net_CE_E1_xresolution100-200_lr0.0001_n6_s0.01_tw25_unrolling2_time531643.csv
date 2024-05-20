@@ -1,0 +1,7 @@
+Training on dataset data/CE_train_E1.h5
+Specified device: cuda:0
+Using NVIDIA A100 80GB PCIe
+models/GNN_norm+mlp+net_CE_E1_xresolution100-200_lr0.0001_n6_s0.01_tw25_unrolling2_time531643.tar
+Number of parameters: 1035587
+Epoch 0
+Starting epoch 0...

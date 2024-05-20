@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+eddie_outputs/
+*.h5

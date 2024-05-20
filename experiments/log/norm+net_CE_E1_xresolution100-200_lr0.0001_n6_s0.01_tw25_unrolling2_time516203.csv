@@ -1,0 +1,32 @@
+Training on dataset data/CE_train_E1.h5
+Specified device: cuda:0
+Using NVIDIA A100 80GB PCIe
+models/GNN_norm+net_CE_E1_xresolution100-200_lr0.0001_n6_s0.01_tw25_unrolling2_time516203.tar
+Number of parameters: 1032629
+Epoch 0
+Starting epoch 0...
+Training Loss (progress: 0.00), 1.4649709731961293, [0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
+Training Loss (progress: 0.08), 0.25052093126422725, [0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
+Training Loss (progress: 0.16), 0.1939746123326056, [0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
+Training Loss (progress: 0.24), 0.18411804718884375, [0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
+Training Loss (progress: 0.32), 0.15546196546318755, [0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
+Training Loss (progress: 0.40), 0.14388117412930576, [0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
+Training Loss (progress: 0.48), 0.1258700934671825, [0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
+Training Loss (progress: 0.56), 0.1240715822345269, [0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
+Training Loss (progress: 0.64), 0.1215415153575041, [0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
+Training Loss (progress: 0.72), 0.11089934831701073, [0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
+Training Loss (progress: 0.80), 0.10706196848590945, [0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
+Training Loss (progress: 0.88), 0.10560009595105366, [0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
+Training Loss (progress: 0.96), 0.1000139604440229, [0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
+Evaluation on validation dataset:
+Step 25, mean loss 0.07660555221508303
+Step 50, mean loss 0.09969690381636724
+Step 75, mean loss 0.14388027482667287
+Step 100, mean loss 0.33157360154519216
+Step 125, mean loss 0.2541021939592304
+Step 150, mean loss 0.2625169196318596
+Step 175, mean loss 0.3477235530486159
+Step 200, mean loss 0.9043161565116834
+Step 225, mean loss 0.5462116460331701
+Unrolled forward losses 14.120970488158829
+Unrolled forward base losses 2.565701273852575
