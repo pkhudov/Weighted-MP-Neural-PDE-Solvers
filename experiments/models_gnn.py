@@ -116,13 +116,13 @@ class GNN_Layer(MessagePassing):
                                             Swish()
                                             )
 
-            save_path = 'models/init5202158.pt'
-            checkpoint = torch.load(save_path, map_location='cpu')
+            # save_path = 'models/init5202158.pt'
+            # checkpoint = torch.load(save_path, map_location='cpu')
             
-            self.kernel_net[0].weight.data = checkpoint['gnn_layers.3.kernel_net.0.weight']
-            self.kernel_net[0].bias.data = checkpoint['gnn_layers.3.kernel_net.0.bias']
-            self.kernel_net[2].weight.data = checkpoint['gnn_layers.3.kernel_net.2.weight']
-            self.kernel_net[2].bias.data = checkpoint['gnn_layers.3.kernel_net.2.bias']
+            # self.kernel_net[0].weight.data = checkpoint['gnn_layers.3.kernel_net.0.weight']
+            # self.kernel_net[0].bias.data = checkpoint['gnn_layers.3.kernel_net.0.bias']
+            # self.kernel_net[2].weight.data = checkpoint['gnn_layers.3.kernel_net.2.weight']
+            # self.kernel_net[2].bias.data = checkpoint['gnn_layers.3.kernel_net.2.bias']
 
         #init.kaiming_normal_(self.kernel_net[0].weight)
         #init.constant_(self.kernel_net[0].bias, 0)
