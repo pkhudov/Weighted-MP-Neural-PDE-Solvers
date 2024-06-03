@@ -115,6 +115,15 @@ class GNN_Layer(MessagePassing):
                                             nn.Linear(hidden_features, 1),
                                             Swish()
                                             )
+
+            save_path = 'models/init5202158.pt'
+            checkpoint = torch.load(save_path, map_location='cpu')
+            
+            self.kernel_net[0].weight.data = checkpoint['gnn_layers.3.kernel_net.0.weight']
+            self.kernel_net[0].bias.data = checkpoint['gnn_layers.3.kernel_net.0.bias']
+            self.kernel_net[2].weight.data = checkpoint['gnn_layers.3.kernel_net.2.weight']
+            self.kernel_net[2].bias.data = checkpoint['gnn_layers.3.kernel_net.2.bias']
+
         #init.kaiming_normal_(self.kernel_net[0].weight)
         #init.constant_(self.kernel_net[0].bias, 0)
 
@@ -236,10 +245,10 @@ class GNN_Layer(MessagePassing):
         self.pos_transformed_snapshot = positions_transformed
         kernel_weights = GNN_Layer.gaussian_function(positions_transformed, sigma=self.sigma)
         self.kernel_weights_snapshot = kernel_weights
-        variables_i.requires_grad = True
+        #variables_i.requires_grad = True
         input = torch.cat((x_i, x_j, u_i - u_j, kernel_weights, variables_i), dim=-1)
-        if self.training:
-            input.retain_grad()
+        #if self.training:
+        #    input.retain_grad()
         self.input_snapshot = input
         message = self.message_net_1(input)
         message = self.message_net_2(message)
@@ -284,7 +293,7 @@ class GNN_Layer(MessagePassing):
     def message_norm_kernel_to_net_no_dist(self, x_i, x_j, u_i, u_j, pos_i, pos_j, variables_i):
         self.positions_snapshot = torch.cat((pos_i, pos_j), dim=-1)
         kernel_weights = GNN_Layer.gaussian_function(torch.norm(pos_i - pos_j,p=2.,dim=-1), sigma=self.sigma).unsqueeze(-1)
-        self.kernel_weights_snapshot = kernel_weight
+        self.kernel_weights_snapshot = kernel_weights
         variables_i.requires_grad = True
         input = torch.cat((x_i, x_j, u_i - u_j, kernel_weights, variables_i), dim=-1)
         self.input_snapshot = input
