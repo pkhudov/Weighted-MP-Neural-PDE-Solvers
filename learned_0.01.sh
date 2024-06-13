@@ -38,4 +38,4 @@ source activate weighted-gnn-pavel
 # Maximum unrolling: 2
 # Neighbours: 6
 
-python experiments/train.py --device=cuda:0 --experiment=E1 --neighbors=6 --unrolling=2 --sigma=0.01 --lr=1e-4 --smoothing=euclidean --log=True
+python experiments/train.py --device=cuda:0 --experiment=E1 --neighbors=100 --unrolling=2 --sigma=0.01 --lr=1e-4 --smoothing=euclidean --log=True

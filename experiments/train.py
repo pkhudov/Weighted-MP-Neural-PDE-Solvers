@@ -240,10 +240,7 @@ def main(args: argparse):
                               eq_variables=eq_variables,
                               sigma=args.sigma,
                               smoothing=args.smoothing).to(device)
-        
-        load_path = 'models/GNN_CE_E1_xresolution100-200_n6_tw25_unrolling2_time328039.pt'
-        model.load_state_dict(torch.load(load_path, map_location='cpu'), strict=False)
-        
+    
     elif args.model == 'BaseCNN':
         model = BaseCNN(pde=pde,
                         time_window=args.time_window).to(device)

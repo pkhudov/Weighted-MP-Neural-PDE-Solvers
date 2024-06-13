@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Grid engine options (lines prefixed with #$)
-#$ -N learn_0.001
+# -N learn_0.001
 # Runtime limit of 47 hours:
 #$ -l h_rt=47:00:00
 #

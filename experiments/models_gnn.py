@@ -84,6 +84,8 @@ class GNN_Layer(MessagePassing):
             self.message_func = self.message_norm_kernel_to_net_no_dist
         elif smoothing == 'norm+net_no_dist':
             self.message_func = self.message_norm_net_no_dist
+        elif smoothing == 'linear':
+            self.message = self.message_linear
 
         if self.smoothing in ['norm+mlp+net', 'mlp+net', 'norm+kernel+net', 'norm+net', 'mlp+net_no_kernel']:
             self.message_net_1 = nn.Sequential(nn.Linear(2 * in_features + time_window + 1 + 1 + n_variables, hidden_features),
@@ -116,13 +118,13 @@ class GNN_Layer(MessagePassing):
                                             Swish()
                                             )
 
-            save_path = 'models/init5202158.pt'
-            checkpoint = torch.load(save_path, map_location='cpu')
+        #    save_path = 'models/init5202158.pt'
+        #    checkpoint = torch.load(save_path, map_location='cpu')
             
-            self.kernel_net[0].weight.data = checkpoint['gnn_layers.3.kernel_net.0.weight']
-            self.kernel_net[0].bias.data = checkpoint['gnn_layers.3.kernel_net.0.bias']
-            self.kernel_net[2].weight.data = checkpoint['gnn_layers.3.kernel_net.2.weight']
-            self.kernel_net[2].bias.data = checkpoint['gnn_layers.3.kernel_net.2.bias']
+        #    self.kernel_net[0].weight.data = checkpoint['gnn_layers.3.kernel_net.0.weight']
+        #    self.kernel_net[0].bias.data = checkpoint['gnn_layers.3.kernel_net.0.bias']
+        #    self.kernel_net[2].weight.data = checkpoint['gnn_layers.3.kernel_net.2.weight']
+        #    self.kernel_net[2].bias.data = checkpoint['gnn_layers.3.kernel_net.2.bias']
 
         #init.kaiming_normal_(self.kernel_net[0].weight)
         #init.constant_(self.kernel_net[0].bias, 0)
@@ -176,6 +178,14 @@ class GNN_Layer(MessagePassing):
     def message_default(self, x_i, x_j, u_i, u_j, pos_i, pos_j, variables_i):
         message = self.message_net_1(torch.cat((x_i, x_j, u_i - u_j, pos_i - pos_j, variables_i), dim=-1))
         message = self.message_net_2(message)
+        return message
+
+    def message_linear(self, x_i, x_j, u_i, u_j, pos_i, pos_j, variables_i):
+        message = self.message_net_1(torch.cat((x_i, x_j, u_i - u_j, pos_i - pos_j, variables_i), dim=-1))
+        message = self.message_net_2(message)
+        kernel_weights = 1/torch.norm(pos_i-pos_j, p=2., dim=-1)
+        self.kernel_weights_snapshot = kernel_weights
+        message = message*kernel_weights
         return message
 
     def message_euclidean(self, x_i, x_j, u_i, u_j, pos_i, pos_j, variables_i):
